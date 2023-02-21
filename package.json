@@ -1,6 +1,6 @@
 {
   "name": "@richterich/cookie-consent-banner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cookie consent banner written in vanilla js (ES6)",
   "type": "module",
   "main": "index.js",
