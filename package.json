@@ -1,0 +1,56 @@
+{
+  "name": "@richterich/cookie-consent-banner",
+  "version": "0.0.0",
+  "description": "Cookie consent banner written in vanilla js (ES6)",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./styles": "./src/styles.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --config .eslintrc.json \"**/*.js\"",
+    "lint:fix": "eslint --config .eslintrc.json \"**/*.js\" --fix",
+    "lint:staged": "lint-staged",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richterich/cookie-consent-banner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/richterich/cookie-consent-banner/issues"
+  },
+  "homepage": "https://github.com/richterich/cookie-consent-banner#readme",
+  "author": "Alexander Richterich <alexander@richterich.dev> (https://richterich.dev)",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "eslint": "^8.32.0",
+    "eslint-config-standard": "^17.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "vite": "^4.0.4"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "keywords": [
+    "cookie",
+    "consent",
+    "banner",
+    "gdpr",
+    "privacy"
+  ]
+}
